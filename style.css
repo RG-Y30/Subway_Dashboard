@@ -16,8 +16,7 @@ body {
     color:whitesmoke;
     display:flex;
     flex-wrap: wrap;
-    
-    
+    width:100%;
     justify-content:space-between;
     align-items: center;
     border-bottom: solid black 1px;
@@ -60,7 +59,7 @@ body {
     
     display:inline-block;
     width: 150px;
-    height:550px;
+    height:100vh;
     background-color: #007A33;
     color:whitesmoke;
 }
