@@ -33,6 +33,7 @@ body {
 .navbar__title{
     display:flex;
     flex-wrap: wrap;
+    padding:20px;
     justify-content: center;
 }
 .navbar__options{
