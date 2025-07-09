@@ -15,7 +15,9 @@ body {
     background-color: #007A33;
     color:whitesmoke;
     display:flex;
-    height:30px;
+    flex-wrap: wrap;
+    
+    
     justify-content:space-between;
     align-items: center;
     border-bottom: solid black 1px;
@@ -23,17 +25,20 @@ body {
 
 .navbar__logo{
     display:flex;
-    height:30px;
     
+    height:30px;
+    width:150px;
 }
 
 .navbar__title{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .navbar__options{
     
     display:flex;
+    flex-wrap: wrap;
     gap:30px;
     padding:20px;
     font-size:larger;
