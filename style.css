@@ -15,7 +15,7 @@ body {
     background-color: #007A33;
     color:whitesmoke;
     display:flex;
-    height:30px;
+   
     justify-content:space-between;
     align-items: center;
     border-bottom: solid black 1px;
