@@ -38,7 +38,7 @@ body {
 .navbar__options{
     
     display:flex;
-    flex-wrap: wrap;
+    
     gap:30px;
     padding:20px;
     font-size:larger;
