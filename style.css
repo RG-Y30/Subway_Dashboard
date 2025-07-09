@@ -52,8 +52,8 @@ body {
 .sidebar{
     
     display:inline-block;
+    width:150px;
     
-   
     background-color: #007A33;
     color:whitesmoke;
 }
