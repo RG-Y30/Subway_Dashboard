@@ -32,17 +32,17 @@ body {
 
 .navbar__title{
     display:flex;
-    
+    flex-wrap: wrap;
     padding:20px;
     justify-content: center;
 }
 .navbar__options{
     
     display:flex;
-    
+    flex-wrap: wrap;
     gap:30px;
     padding:20px;
-    font-size:larger;
+    
 }
 
 .navbar__options a{
