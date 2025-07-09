@@ -33,7 +33,7 @@ body {
 .navbar__title{
     display:flex;
     flex-wrap: wrap;
-    padding:20px;
+    
     justify-content: center;
 }
 .navbar__options{
@@ -41,7 +41,7 @@ body {
     display:flex;
     flex-wrap: wrap;
     gap:30px;
-    padding:20px;
+    
     
 }
 
