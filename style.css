@@ -15,7 +15,7 @@ body {
     background-color: #007A33;
     color:whitesmoke;
     display:flex;
-    
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
     border-bottom: solid black 1px;
@@ -23,7 +23,7 @@ body {
 
 .navbar__logo{
     display:flex;
-    
+    height:30px;
     
 }
 
@@ -52,8 +52,8 @@ body {
 .sidebar{
     
     display:inline-block;
-    width:150px;
-    
+    width: 150px;
+    height:550px;
     background-color: #007A33;
     color:whitesmoke;
 }
