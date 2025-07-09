@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    Margin: 0;
+}
+
+body {
+
+   font-family: "Roboto", sans-serif;
+    
+}
+
+
+.navbar{
+    
+    background-color: #007A33;
+    color:whitesmoke;
+    display:flex;
+    height:30px;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.navbar__logo{
+    display:flex;
+    height:30px;
+    
+}
+
+.navbar__title{
+    display:flex;
+    justify-content: center;
+}
+.navbar__options{
+    
+    display:flex;
+    gap:30px;
+    padding:20px;
+    font-size:larger;
+}
+
+.navbar__options a{
+    text-decoration: none;
+    color:white;
+}
+
+.mainpage{
+    display:flex;
+}
+
+
+.sidebar{
+    
+    display:inline-block;
+    width: 150px;
+    height:550px;
+    background-color: #007A33;
+    color:whitesmoke;
+}
+
+.sidebar h3{
+    padding:10px;
+    text-decoration: underline;
+}
+
+.sidebar p{
+    padding:10px;
+    border-bottom:solid black 1px;
+}
+
+.storeselector{
+    display:inline;
+    padding:30px;
+    padding-top:50px;
+    
+}
+
+.storeselector__title{
+    display:flex;
+    padding:10px;
+    
+}
+
+.storeselector__aylesbury a,.storeselector__ware a,.storeselector__h3 a,.storeselector__h4 a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.storeselector__aylesbury,.storeselector__ware,.storeselector__h3,.storeselector__h4{
+    
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    border:solid,black,1px;
+    border-radius: 5px;
+
+}
+
+.storeselector__aylesbury:hover,.storeselector__ware:hover,.storeselector__h3:hover,.storeselector__h4:hover  {
+
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border: 1px solid #007A33; /* Subway green accent */
+}
+
+.notice{
+    color:red;
+}
+
+.dailyoperations,.monthlyreports,.maintenance,.hr{
+   
+    display:inline;
+}
+.dailyoperations__title,.monthlyreports__title,.maintenance__title,.hr__title{
+    padding:30px;
+}
+
+.dailyoperations__body,.monthlyreports__body,.maintenance__body,.hr__body{
+   
+    display:flex;
+}
+
+.dailyoperations__mileagelog,.dailyoperations__breadlog,.monthlyreports__energyreading,.maintenance__reporting,.hr__newjoineronboarding{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px;
+    border:solid black 1px;
+
+}
+
+.dailyoperations__mileagelog button,.dailyoperations__breadlog button,.monthlyreports__energyreading button,.maintenance__reporting button,.hr__newjoineronboarding button{
+    padding:2px;
+    background-color: #ffd100;
+    border: solid 1px;
+}
+
+
+.dailyoperations__mileagelog a,.dailyoperations__breadlog a,.monthlyreports__energyreading a,.maintenance__reporting a,.hr__newjoineronboarding a{
+    text-decoration: none;
+    padding:2px;
+    background-color: #ffd100;
+    color:black;
+    font-size: small;
+    border: solid 1px;
+}
+
