@@ -236,7 +236,7 @@ body {
 
     .navbar__title,.navbarhome__title{
         display:flex;
-        justify-content: left;
+       
         font-size: 10px;
 
     }
