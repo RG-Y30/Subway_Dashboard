@@ -5,150 +5,290 @@
 
 body {
 
-   font-family: "Roboto", sans-serif;
-    
+    font-family: "Roboto", sans-serif;
+
 }
 
 
-.navbar{
-    
+.navbar {
+    position: sticky;
+    top: 0;
     background-color: #007A33;
-    color:whitesmoke;
-    display:flex;
+    color: whitesmoke;
+    display: flex;
     flex-wrap: wrap;
-    width:100%;
-    justify-content:space-between;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     border-bottom: solid black 1px;
 }
 
-.navbar__logo{
-    display:flex;
-    
-    height:30px;
-    width:150px;
+.navbar__logo {
+
+
+    display: flex;
+
+    height: 30px;
+    width: 150px;
+    /* animation-name: logo_anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
 }
 
-.navbar__title{
-    display:flex;
+/* @keyframes logo_anime {
+    50%
+    {
+        scale: 0.8;
+    }
+} */
+
+.navbar__title {
+    display: flex;
     flex-wrap: wrap;
-    padding-top:10px;
+    padding-top: 10px;
     justify-content: center;
 }
-.navbar__options{
-    
-    display:flex;
+
+.navbar__options {
+
+    display: flex;
     flex-wrap: wrap;
-    padding-top:10px;
-    gap:30px;
-    
-    
+    padding-top: 10px;
+    gap: 30px;
+
+
 }
 
-.navbar__options a{
+.navbar__options a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-.mainpage{
-    display:flex;
+.navbar__home{
+    display:none;
+}
+
+.mainpage {
+    display: flex;
+
 }
 
 
-.sidebar{
-    
-    display:inline-block;
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
     width: 150px;
-    height:100vh;
+    height: 100vh;
     background-color: #007A33;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
-.sidebar h3{
-    padding:10px;
+.sidebar h3 {
+    padding: 10px;
     text-decoration: underline;
 }
 
-.sidebar p{
-    padding:10px;
-    border-bottom:solid black 1px;
+.sidebar p {
+    padding: 10px;
+    border-bottom: solid black 1px;
 }
 
-.storeselector{
-    display:inline;
-    padding:30px;
-    padding-top:50px;
-    
+.storeselector {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 50px;
+
 }
 
-.storeselector__title{
-    display:flex;
-    padding:10px;
-    
+.storeselector__title {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
 }
 
-.storeselector__aylesbury a,.storeselector__ware a,.storeselector__h3 a,.storeselector__h4 a{
-    text-decoration:none;
-    color:black;
+.storeselector__storeslist {
+    display: flex;
+
+}
+
+.storeselector__aylesbury a,
+.storeselector__ware a,
+.storeselector__h3 a,
+.storeselector__h4 a {
+    text-decoration: none;
+    color: black;
 }
 
 
-.storeselector__aylesbury,.storeselector__ware,.storeselector__h3,.storeselector__h4{
-    
-    display:inline-block;
-    margin:10px;
-    padding:10px;
-    border:solid,black,1px;
+.storeselector__aylesbury,
+.storeselector__ware,
+.storeselector__h3,
+.storeselector__h4 {
+
+
+    display: flex;
+
+    margin: 10px;
+    padding: 10px;
+    border: solid, black, 1px;
     border-radius: 5px;
 
 }
 
-.storeselector__aylesbury:hover,.storeselector__ware:hover,.storeselector__h3:hover,.storeselector__h4:hover  {
+.storeselector__aylesbury:hover,
+.storeselector__ware:hover,
+.storeselector__h3:hover,
+.storeselector__h4:hover {
 
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  border: 1px solid #007A33; /* Subway green accent */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border: 1px solid #007A33;
+    /* Subway green accent */
+
 }
 
-.notice{
-    color:red;
+.notice {
+    color: red;
 }
 
-.dailyoperations,.monthlyreports,.maintenance,.hr{
-   
-    display:inline;
-}
-.dailyoperations__title,.monthlyreports__title,.maintenance__title,.hr__title{
-    padding:30px;
+.dailyoperations,
+.monthlyreports,
+.maintenance,
+.hr {
+
+    display: flex;
+    flex-direction: column;
 }
 
-.dailyoperations__body,.monthlyreports__body,.maintenance__body,.hr__body{
-   
-    display:flex;
+.dailyoperations__title,
+.monthlyreports__title,
+.maintenance__title,
+.hr__title {
+    padding: 30px;
 }
 
-.dailyoperations__mileagelog,.dailyoperations__breadlog,.monthlyreports__energyreading,.maintenance__reporting,.hr__newjoineronboarding{
-    display:flex;
-    gap:10px;
+.dailyoperations__body,
+.monthlyreports__body,
+.maintenance__body,
+.hr__body {
+
+    display: flex;
+}
+
+.dailyoperations__mileagelog,
+.dailyoperations__breadlog,
+.dailyopeations__critical_checklist,
+.monthlyreports__energyreading,
+.maintenance__reporting,
+.hr__newjoineronboarding {
+    display: flex;
+    gap: 10px;
     align-items: center;
     margin-left: 30px;
     padding: 10px;
-    border:solid black 1px;
+    border: solid black 1px;
 
 }
 
-.dailyoperations__mileagelog button,.dailyoperations__breadlog button,.monthlyreports__energyreading button,.maintenance__reporting button,.hr__newjoineronboarding button{
-    padding:2px;
-    background-color: #ffd100;
-    border: solid 1px;
-}
 
-
-.dailyoperations__mileagelog a,.dailyoperations__breadlog a,.monthlyreports__energyreading a,.maintenance__reporting a,.hr__newjoineronboarding a{
+.dailyoperations__mileagelog a,
+.dailyoperations__breadlog a,
+.dailyopeations__critical_checklist a,
+.monthlyreports__energyreading a,
+.maintenance__reporting a,
+.hr__newjoineronboarding a {
     text-decoration: none;
-    padding:2px;
+    padding: 2px;
     background-color: #ffd100;
-    color:black;
+    color: black;
     font-size: small;
     border: solid 1px;
+    
 }
 
+@media screen and (max-width:600px) {
+    .storeselector__storeslist {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar__options {
+        display: none;
+    }
+
+   .navbar__home{
+        display: flex;
+        
+    }
+
+    .navbar__title {
+        display:flex;
+        justify-content: left;
+        font-size: 11.5px;
+
+    }
+
+    .navbar__logo{
+        width: fit-content;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: left;
+        gap:10px;    
+        align-items: center;
+    }
+
+
+    .dailyoperations__body,
+    .monthlyreports__body,
+    .maintenance__body,
+    .hr__body {
+
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .navbar__title {
+        font-size: 12px;
+
+    }
+
+    .navbar {
+        display: flex;
+
+        gap: 10px;
+    }
+
+
+    .navbar__options {
+
+        font-size: 13px;
+
+    }
+
+    .storeselector__storeslist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dailyoperations__body,
+    .monthlyreports__body,
+    .maintenance__body,
+    .hr__body {
+
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+       
+    }
+
+}
