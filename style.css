@@ -72,7 +72,7 @@ body {
 
 .mainpage {
     display: flex;
-
+    gap:10px;
 }
 
 
@@ -237,7 +237,7 @@ body {
     .navbar__title,.navbarhome__title{
         display:flex;
         justify-content: left;
-        font-size: 11.5px;
+        font-size: 10px;
 
     }
 
@@ -264,19 +264,19 @@ body {
 }
 
 @media screen and (min-width:600px) and (max-width:800px) {
-    .navbar__title {
+    .navbar__title,.navbarhome__title {
         font-size: 12px;
 
     }
 
-    .navbar {
+    .navbar,.navbarhome {
         display: flex;
 
         gap: 10px;
     }
 
 
-    .navbar__options {
+    .navbar__options,.navbarhome__options {
 
         font-size: 13px;
 
