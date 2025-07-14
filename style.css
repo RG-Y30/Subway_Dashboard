@@ -241,7 +241,7 @@ body {
     .navbar {
         display: flex;
         justify-content: left;
-        gap:2px;    
+        gap:5px;    
         align-items: center;
     }
 
