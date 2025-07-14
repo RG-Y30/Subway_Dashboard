@@ -70,7 +70,7 @@ body {
 
 .mainpage {
     display: flex;
-
+    gap:10px;
 }
 
 
@@ -241,7 +241,7 @@ body {
     .navbar {
         display: flex;
         justify-content: left;
-        gap:5px;    
+        gap:10px;    
         align-items: center;
     }
 
@@ -277,6 +277,7 @@ body {
         font-size: 13px;
 
     }
+    
 
     .storeselector__storeslist {
         display: flex;
