@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     Margin: 0;
@@ -96,6 +98,15 @@ body {
     border-bottom: solid black 1px;
 }
 
+.sidebar a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.sidebar :hover{
+     background-color: #38b000; /* lighter green on hover */
+  cursor: pointer;
+}
 .storeselector {
     display: flex;
     flex-direction: column;
@@ -181,7 +192,7 @@ body {
 
 .dailyoperations__mileagelog,
 .dailyoperations__breadlog,
-.dailyopeations__critical_checklist,
+.dailyopeations__critical_checklist,.monthlyreports__3pdreport,
 .monthlyreports__energyreading,
 .maintenance__reporting,
 .hr__newjoineronboarding {
@@ -198,7 +209,7 @@ body {
 .dailyoperations__mileagelog a,
 .dailyoperations__breadlog a,
 .dailyopeations__critical_checklist a,
-.monthlyreports__energyreading a,
+.monthlyreports__energyreading a,.monthlyreports__3pdreport a,
 .maintenance__reporting a,
 .hr__newjoineronboarding a {
     text-decoration: none;
@@ -230,7 +241,7 @@ body {
 
      .navbarhome {
         display: flex;
-        justify-content:left;
+        justify-content:space;
         gap:10px;    
         align-items: center;
     }
@@ -243,7 +254,7 @@ body {
 
     .navbar__title,.navbarhome__title{
         display:flex;
-       
+        
         font-size: 10px;
 
     }
@@ -271,12 +282,12 @@ body {
 }
 
 @media screen and (min-width:600px) and (max-width:800px) {
-    .navbar__title,.navbarhome__title {
+    .navbar__title ,.navbarhome__title{
         font-size: 12px;
 
     }
 
-    .navbar,.navbarhome {
+    .navbar,.navbarhome{
         display: flex;
 
         gap: 10px;
