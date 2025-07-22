@@ -245,7 +245,7 @@ body {
     .navbar {
         display: flex;
         justify-content:space-between;
-        gap:10%;
+        gap:5%;
         align-items: center;
     }
 
