@@ -75,13 +75,13 @@ body {
 
 .mainpage {
     display: flex;
-    gap: 1%;
+   
 }
 
 .mainpage1 {
     display: flex;
     flex-direction: column;
-    gap:1%;
+   
 }
 
 .sidebar {
@@ -89,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 150px;
-    height: 120vh;
+    height: 100vh;
     background-color: #007A33;
     color: whitesmoke;
 }
@@ -245,7 +245,7 @@ body {
     .navbar {
         display: flex;
         justify-content:space-between;
-        gap:3px;
+        gap:5px;
         align-items: center;
     }
 
