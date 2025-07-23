@@ -271,7 +271,7 @@ body {
 
     }
 
-    .navbar__logo {
+    .navbar__logo,.sidebar {
         width: 110px;
     }
 
