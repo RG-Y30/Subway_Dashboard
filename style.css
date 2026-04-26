@@ -136,6 +136,7 @@ body {
 }
 
 .storeselector__aylesbury a,
+.storeselector__beaconsfield a,
 .storeselector__ware a,
 .storeselector__h3 a,
 .storeselector__h4 a, 
@@ -147,6 +148,7 @@ body {
 
 
 .storeselector__aylesbury,
+.storeselector__beaconsfield,
 .storeselector__ware,
 .storeselector__h3,
 .storeselector__h4,
@@ -164,6 +166,7 @@ body {
 }
 
 .storeselector__aylesbury:hover,
+.storeselector__beaconsfield:hover,
 .storeselector__ware:hover,
 .storeselector__h3:hover,
 .storeselector__h4:hover,
